@@ -78,6 +78,13 @@ h2 , span {
     grid-template: 100fr/repeat(4,24fr);
     grid-template-areas: "price1 price2 popularPrice price4";
     grid-gap: 50px;
+    animation-duration: 4s;
+    animation-timing-function: linear ;
+
+}
+.pricing-plans div:hover{
+    transform: scale(1.1);
+
 
 }
 .price1{
@@ -125,11 +132,9 @@ ion-icon{
     padding-right: 10px;
 }
 
+
+
 @media screen and (max-width: 400px) {
-
-    .pricing-container{
-
-    }
 
     .pricing-plans {
         margin-top: 3vh;
@@ -142,14 +147,12 @@ ion-icon{
         justify-content: center;
     }
 
+
+
     .pricing-header {
         display: flex;
         flex-direction: column;
         font-size: 3vw;
-        justify-content: center;
-        align-content: center;
-        justify-items: center;
-        align-items: center;
         text-align: center;
     }
 
