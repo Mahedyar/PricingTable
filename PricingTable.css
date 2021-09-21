@@ -45,7 +45,7 @@ h2 , span {
 /*}*/
 
 .price-btn{
-    padding: 0.7rem 3.5rem;
+    padding: 1vw 5vw;
     color: #673AB7;
     font-weight: bold;
     outline: 0;
@@ -80,7 +80,7 @@ h2 , span {
     grid-gap: 50px;
     animation-duration: 4s;
     animation-timing-function: linear ;
-    transition: all 2s;
+
 
 }
 .pricing-plans div:hover{
@@ -94,14 +94,18 @@ h2 , span {
     /*flex-direction: column;*/
     /*line-height: 2vh;*/
     padding: 20px;
+    transition: 0.3s all;
+
 }
 .price2{
     grid-area: price2;
     padding: 20px;
+    transition: 0.3s all;
 }
 .price4{
     grid-area: price4;
     padding: 20px;
+    transition: 0.3s all;
 }
 .popularPrice{
     grid-area: popularPrice;
@@ -109,6 +113,7 @@ h2 , span {
     color: pink;
     padding: 20px;
     border-radius: 20px;
+    transition: 0.3s all;
 }
 .popularPrice button:hover{
     background-color: pink;
