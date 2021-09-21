@@ -80,6 +80,7 @@ h2 , span {
     grid-gap: 50px;
     animation-duration: 4s;
     animation-timing-function: linear ;
+    transition: all 2s;
 
 }
 .pricing-plans div:hover{
@@ -169,5 +170,7 @@ ion-icon{
     h1{
         display: flex;
     }
+
+
 
 }
