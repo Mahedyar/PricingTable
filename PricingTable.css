@@ -140,10 +140,15 @@ ion-icon{
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
+
+    body{
+
+    }
 
     .pricing-plans {
         margin-top: 3vh;
+        margin-right: 3.5vw;
         height: 50vh;
         width: 80vw;
         display: grid;
@@ -168,6 +173,12 @@ ion-icon{
         border: 0;
         outline: 0;
     }
+
+    .price-btn{
+        padding: 2vw 24vw;
+
+    }
+
     .pricing-cycle {
         margin-left: 0;
     }
